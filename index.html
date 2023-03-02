@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/gotham-pro" rel="stylesheet">
+    <title>Popup</title>
+</head>
+<body>
+    <div class="site-container flex">
+        <button class="btn-call btn-reset "><a class="btn-link__call popup-link" href="#popup">Нажми на меня</a></button>
+    </div>
+    
+
+
+    <div id="popup" class="popup-container flex">
+        <div class="popup-body popup__content">
+            <img class="popup-body__img-book" src="./img/book.png" alt="">
+            <img class="popup-body__img-arrow" src="./img/arrow.png" alt="">
+            <div class="popup-body__wrapper flex">
+                <div class="popup-body__left">
+                    <p>ПОШ <br> АГО-ВЫЙ <br> ПЛАН</p>
+                </div>
+                <div class="popup-body__right">
+                    <div class="popup-titel__container flex">
+                        <h2 class="popup-titel__content">мастер-класс?</h2>
+                    </div>
+                    <div class="popup-desc">
+                        <p class="popup-description">Скачайте пошаговый план</p>
+                        <p class="popup-description">«Как собственнику <br> выйти из операционки»</p>
+                        <p class="popup-description">и познакомьтесь с этим инструментом <br> <span>прямо сейчас</span></p>
+                        <p class="popup-description">10 шагов помогут создать системный бизнес</p>
+                    </div>
+                    <form class="popup-form flex" for="#">
+                        <label for="">Для получения бонуса введите email</label>
+                        <input class="popup-email" type="email" placeholder="Ваш e-mail">
+                    </form>
+                  
+                        <button class="popup-btn__email">
+                            <a class="close-popup" href="#popup">Скачать пошаговой план</a>
+                        </button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
