@@ -238,7 +238,9 @@ label {
     .popup-body__img-book {
         width: 50%;
     }
-
+    .btn-call {
+        width: 30%;
+    }
 }
 @media (max-width: 700px) {
     .popup-body__wrapper {
@@ -279,5 +281,12 @@ label {
     .popup-btn__email {
         width: 80%;
         font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .btn-call {
+        width: 50%;
     }
 }
